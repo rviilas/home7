@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Guitarsv</title>
+<style type="text/css">
+#blob{
+color:#ffcc00;
+border-style: solid;
+border-radius:15px;
+border-collapse: separate;
+ border-spacing: 10px 50px;
+border-color:#66ff33;
+border-width:5px;
+display: inline-block;
+padding:25px;
+}
+a{
+color:black;
+underline;
+}
+</style>
+</head>
+<body>
+<p id='blob'><?php echo $value['model'];?>
+ by <?php echo $value['manufacturer'];?>
+in the color <?php echo $value['color'];?>.<br>
+Featuring the <?php echo $value['pups'];?> pickups.
+For more information see <a href="<?php echo $value['link'];?>"> this link </a>
+</p>
+</body>
+</html>
